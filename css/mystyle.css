@@ -106,7 +106,10 @@
         width:100%;
       }
 
-
+.closeIcon {
+  display:inline;
+  align-items:right;
+}
 
       /* Popup container starts here*/
 .popup {
