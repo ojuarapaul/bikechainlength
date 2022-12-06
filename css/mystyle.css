@@ -88,3 +88,20 @@
         height: 150px;
         color: var(--main-fontcolor);
       }
+
+      .pSmall {
+        align-items: center;
+        font-family: 'Raleway', sans-serif;
+        margin: 1.5rem;
+        margin-top: 0.2rem;
+        font-size: 0.85rem;
+        font-weight: 350;
+        color: var(--main-fontcolor);
+        padding-bottom: 0rem;
+      }
+
+      .contAbout {
+        display:inline-block;
+        align-items: center;
+        width:100%;
+      }
