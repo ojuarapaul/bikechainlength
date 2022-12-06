@@ -25,7 +25,7 @@ function main() {
     let chainLength = a + (b + c + 4)
     chainLength = Math.floor(chainLength);
     const linksNumber = chainLength * 2
-    alert("The chain size is " + chainLength + " inches, which corresponds to " + linksNumber + " links.")
+    alert("The chain size should be " + chainLength + " inches, which corresponds to " + linksNumber + " links.")
     
     alert("If you use a Missing Link it should be included in the chain's size!")
 }
