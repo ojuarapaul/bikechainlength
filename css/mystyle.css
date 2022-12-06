@@ -1,0 +1,23 @@
+:root {
+    --main-fontcolor: hsl(236, 91%, 18%);
+    --main-bkg: white;
+    --main-pale2: rgb(11, 152, 198);
+  }
+  
+  body {
+    /*maybe add a background image later! */
+    /*background-image: url("../images/bkg_desktop.png");
+    opacity:1;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .logoAnim {
+    padding: 2rem;
+    width:20%;
+  }
+
