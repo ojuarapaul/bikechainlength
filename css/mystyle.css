@@ -21,6 +21,13 @@
     width:20%;
   }
 
+  @media (max-width: 480px) {
+    .logoAnim {
+      width:60%;
+    }
+  }
+
+
   .shakeMe {
     animation: shake 2s infinite;
     animation-iteration-count: 8;
