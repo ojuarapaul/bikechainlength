@@ -4,6 +4,11 @@ function main() {
     let chainstay = document.getElementById("chainStaySize").value;
     if (chainstay == "") {
         main();
+    } else if (chainstay >= 18){
+        alert("O chainstay foi identificado como em centímetros")
+        chainstay = chainstay * 1
+        chainstay = chainstay / 2.54
+        chainstay = chainstay.toFixed(2);
     } else {
         chainstay = chainstay * 1;
     }
