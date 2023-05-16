@@ -40,18 +40,18 @@
         <a href="about.html"><img class="logoAnim" src="images/aoef7-2c79i.png"></a>
     </div>
     <!--Splash screen end-->
-    <h1>Bike Chain Length Calculator</h1>
-    <a style="text-decoration:none; color: darkgray;" href="index_pt-br.html">Use em Português</a><br>
-    </body>
+    <h1>Calculador de Tamanho de Corrente</h1>
+    <a a style="text-decoration:none; color: darkgray;" href="index.html">Use English Version</a><br>
+</body>
 
 
     <section>
         <!--defines the icon and linked function to trigger the hint popup-->
         <br><label for="chainStay">
             <div class="popup" onclick="myFunction()"><i class="fa-solid fa-gears fa-user fa-sm"></i><span
-                    class="popuptext" id="myPopup">Hint:<br>Type the length of your chainstain in inches. You can find this information on your bike geometry chart.<br><i class="fa-solid fa-circle-xmark"></i></span>
+                    class="popuptext" id="myPopup">Ajuda:<br>Digite o comprimento do seu chainstain em polegadas. Você pode encontrar essas informações no gráfico de geometria da sua bike.<br><i class="fa-solid fa-circle-xmark"></i></span>
             </div>
-            Chainstay size (in):
+            Tamanho do Chainstay (polegadas):
         </label><br>
         <script>
             let touchEvent1 = 'ontouchstart' in window ? 'touchstart' : 'click';
@@ -66,9 +66,9 @@
         
         <label for="cog">
             <div class="popup" onclick="myFunction1()"><i class="fa-solid fa-gears fa-user fa-sm"></i><span
-                class="popuptext" id="myPopup1">Hint:<br>Type the number of teeth of your largest cog - if you don't already know it, just carefully count them.<br><i class="fa-solid fa-circle-xmark"></i></span>
+                class="popuptext" id="myPopup1">Ajuda:<br>Digite o número de dentes de sua maior catraca - se você ainda não sabe, conte-os cuidadosamente.<br><i class="fa-solid fa-circle-xmark"></i></span>
         </div>
-            Largest cog:
+            Maior catraca:
         </label><br>
         <script>
             // When the user clicks on <div>, open the popup
@@ -80,9 +80,9 @@
         <input type="number" id="cog" min="20" max="54" required><br><br>
         <label for="chainring">
             <div class="popup" onclick="myFunction2()"><i class="fa-solid fa-gears fa-user fa-sm"></i><span
-                class="popuptext" id="myPopup2">Hint:<br>Type the number of teeth of your largest chainring (or the only one) - if you don't already know it, just carefully count them.<br><i class="fa-solid fa-circle-xmark"></i> </span>
+                class="popuptext" id="myPopup2">Ajuda:<br>Digite o número de dentes da sua maior coroa (ou da única) - se você ainda não sabe, conte-os cuidadosamente.<br><i class="fa-solid fa-circle-xmark"></i> </span>
         </div>
-            Largest Chainring:
+            Maior coroa:
         </label><br>
         <script>
             // When the user clicks on <div>, open the popup
@@ -95,7 +95,7 @@
     </section>
     <br>
     <div class="btn1">
-        <button id="btn2" type="button" class="btn btn-danger btn-md shakeMe">Calculate / Refresh</button>
+        <button id="btn2" type="button" class="btn btn-danger btn-md shakeMe">Calcular / Limpar</button>
         <script>
             //check if touchevent is available (to work with iPhone touchscreen)
             let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
@@ -121,7 +121,7 @@
         <h4>&copy; Created by Ojuarapaul | 2022</h4>
     </section>
     <!--Script for splash screen-->
-    <script src="js/myscript.js"></script>
+    <script src="js/myscript_pt-br.js"></script>
 </body>
 
 </html>
